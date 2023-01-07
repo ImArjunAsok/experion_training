@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <button onclick="handleClick(event)">Click Me</button>
+    <button onclick="handleClick(event)">Click Me</button>
+    <p onclick="handleClick(event)">Click Me</p>
+    <script>
+        function handleClick(e){
+            e.target.innerText = 'Clicked';
+            e.target.style.color = 'red';
+        }
+    </script> -->
+    <p>First Paragraph</p>
+    <p>Second Paragraph</p>
+    <script>
+        var e = document.getElementsByTagName('p');
+        for (let i = 0; i < e.length; i++) {
+            const element = e[i];
+            element.innerText = 'New Text';
+        }
+    </script>
+</body>
+</html>

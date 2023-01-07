@@ -1,0 +1,10 @@
+Asynchronous programming makes it possible to express waiting for long-running actions
+without freezing the program during these actions. JavaScript environments typically 
+implement this style of programming using callbacks, functions that are called when the
+actions complete. An event loop schedules such callbacks to be called when appropriate, 
+one after the other, so that their execution does not overlap.
+
+callback - A callback is a function passed as an argument to another function. This technique allows a 
+function to call another function. A callback function can run after another function has finished.
+
+promise - one time process
